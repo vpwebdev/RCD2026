@@ -1,0 +1,78 @@
+/* ==========================================================================
+   REFLECTING CHRIST DAILY — Design Tokens
+   ========================================================================== */
+
+:root {
+  /* Color — Black & White Only */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray-900: #111111;
+  --color-gray-800: #1a1a1a;
+  --color-gray-700: #2a2a2a;
+  --color-gray-600: #444444;
+  --color-gray-500: #666666;
+  --color-gray-400: #888888;
+  --color-gray-300: #aaaaaa;
+  --color-gray-200: #d0d0d0;
+  --color-gray-100: #e8e8e8;
+  --color-gray-50: #f5f5f5;
+
+  /* Typography */
+  --font-heading: var(--font-inter), 'Helvetica Neue', Arial, sans-serif;
+  --font-body: var(--font-inter), 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+  --text-5xl: 3.5rem;
+  --text-6xl: 4.5rem;
+
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-black: 900;
+
+  --tracking-tight: -0.03em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.05em;
+  --tracking-wider: 0.1em;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+
+  /* Layout */
+  --max-width: 1200px;
+  --max-width-narrow: 720px;
+  --max-width-wide: 1400px;
+  --gutter: 1.5rem;
+
+  /* Borders */
+  --border-thin: 1px solid var(--color-black);
+  --border-thick: 2px solid var(--color-black);
+  --border-heavy: 4px solid var(--color-black);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+}
