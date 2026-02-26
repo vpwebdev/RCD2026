@@ -22,6 +22,11 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <span>&copy; {new Date().getFullYear()} Reflecting Christ Daily. All rights reserved.</span>
+          <span>
+            <Link href="/privacy">Privacy</Link>
+            {' · '}
+            <Link href="/terms">Terms</Link>
+          </span>
           <span>Soli Deo Gloria</span>
         </div>
       </div>
